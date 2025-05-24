@@ -59,7 +59,7 @@ def analyze_moderation(summary_text):
         st.error(f"Moderation Score: {mod_score}% - {classification}")
 
 def main():
-    st.title("🎥 Video-to-Text Summarization & Content Moderation")
+    st.title(" Video-to-Text Summarization & Content Moderation")
 
     configure_api()
 
